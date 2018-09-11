@@ -1,0 +1,193 @@
+#pragma encryption
+'!TITLE "EasyWork Function"
+
+'RC8 EasyWork Function Source Code---------------------------------------------
+' @file    EasyWork.pcs
+' @brief   Easy Work Function RC8 operation only.
+' @details https://github.com/DENSO-2DLab/RC8_Function-EasyWork
+'
+' @version 2.0.0
+' @date    2016/05/27
+' @author  Carlos A. Lopez (DPAM - R&D)	
+'
+' Software License Agreement (MIT License)
+'
+' @copyright Copyright (c) 2018 DENSO 2DLab
+'
+' Permission is hereby granted, free of charge, to any person obtaining a copy
+' of this software and associated documentation files (the "Software"), to deal
+' in the Software without restriction, including without limitation the rights
+' to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+' copies of the Software, and to permit persons to whom the Software is
+' furnished to do so, subject to the following conditions:
+'
+' The above copyright notice and this permission notice shall be included in
+' all copies or substantial portions of the Software.
+'
+' THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+' IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+' FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+' AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+' LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+' OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+' THE SOFTWARE.
+'------------------------------------------------------------------------------
+
+'GETING STARTED-----------------------------------------------------------------
+' Make sure to go over the setup guide in the following document prior to running 
+' this program. 
+' 
+' @doc	EasyWork_Users_Guide.pdf
+'
+'Inputs:
+' - Work_Org -> Origin of Work Offset
+' - Work_X   -> Point along the X axis of the Work Offset
+' - Work_XY  -> Point on the XY Plane
+'
+'Outputs:
+'- WorkDef   -> WorkOffset Definition Parameters.
+'--------------------------------------------------------------------------------
+
+Function EasyWork(Work_Org As Position, Work_X As Position, Work_XY As Position) As Position
+
+#Pragma encrypt(On)
+DAGEnDKuVthZuMqJrR/HRm9TcIkJw36b6SulTcKl
+npuj8H/RhfkjA7yPxCVF2xyqxKNikseE5lnkbTUU
+mXgWpGn5E2VP4HZNgsObN4NsQLDMhH+pEeBPr7Cd
+KflBayfQVQY8c90aFQliFQm3WbcC/xQtOhpWdm02NLMuEfGwKozBF3TKtA==
+rXpD59PkwBQMx5FjRKwZrKcLXEkV1tMIdqUsiK8lxge5A8+aHi/kJkjC+A==
+yDxm90re5uEITRPS4rtjdgx4uZN3yAsO77AZHIS0HMGFofrAqvDZS41Hf2rd
++yrEr4FAmspQOInexX5tGG/FKxVhV++3kGZiWXJF7S/MVophp/kPkCcc9c1kKE9q
+YcPPzPikau2UXRCYHtr4daf/9COnROfeuAC1xQNt7ef53qUnoF4P+0VrePFU5J2E
+HwcPcRde3AFrBurdMZ67EXtUKABMrghbHkV2ijK4tdR+2eybnPaapCrG8aDjMO7Z
+ATpzIVhpzPrQj3gJnFWolcPhPlYso/VX1fT2Tgrmb8lr3Np8nyWLv595J58F
+kSIpHGbb2TeosGlAxJ9WDLlqeBk1y4ceRauvZ86yD/anXlUoGirW8KK2FX0o
+ue60uDIy7AqYGLUg8zrHcGSkqBBZiq6hJFU7n94y3oL+bMuqD0O2HJZuU1fx
+8TMcN1qZw2xwEufkrRfYv6vZ9TBUL7uat7/H8gayRKOQl7u9yzbkwpIpOlx4K5cscSefpKgZGzE=
+7iotdkxlCy3m8O2V9lgzuEWR3LXO1NgTBQP2u9fl
+xdCT6kqqdlUKc9yciO2Xf2qC47LLIML4Jcj7dbv2
+zl72i8RWx4IHrfhTrtouuPxvLNoBpt58AH6y6D6J
+z24qMtgZ1UTJs36K9GKLK9n5y4MLP3n/u3ovqTy3
+6xwo4n8uZ6a/25z8YOY7O5aUDHHjpYmxhNxDi+4Q
+P4QdYLZF6L9vyqKVR+jrAlaQrX/mlDOMsXOQ5bya
+XRTdSP9lsDToB1Oyjyb4EohDhYDjT6DHBRoON7xOKA==
+5haVlZEoWxPmGt8TLjseQ6XLRk+i2hL/VFj5uMXC9ni/3ix7HOgRKXW4erSzkzWpCWYbPXyMsRj9Bv6p4HU=
+0sE27mQAwf6UOky9bZx8OX481JipBhNQCjz4sxrFrT+wcAYUk8oVEqRpifBURyVvFh/Snh67SZk=
+Hy7EYykad8X4RMzh/RVUr6spW5FKXJhn3wSWLzbhaNS2Laax5NdOMJujvpKyLR3XndMAvB9/eKLv+Q259A==
+A8isMFshFySrFj+pQpizEYNZyv5mHir97gkFb5Ap
+fqcbg6LA0MbkGLsCXNy1wo7zXNz9COJ3TQaNSKSAlKy/2uK/6uUTkgbmPFa41oH8+Ho/dm10LpxAWuHBl9Q=
+FXDvvP6/sTnecbQdD3wZ5u/xYUOCnwy+aD4J7HuUFfo6kyo+lkP+HDFxcOt8vwLgwnuZ3CfW2LhZ2idyKKk=
+IC52cNshOTJKe6quebpGR6KLQbe0l9aKmQ2VsTauR7yTpUlIJmXutFEoQosgi/rlSYduOQJI23qs7nMozkbu
+sB4/U94zIJVNyWD8zkArQXYfr28PcOggvSL0iVRzNQ6L2qna1m/NMTrRu2vTSvrA/Vtoy9oSg4YvTk8CTHc=
+4TeNWF93/xuyrbV/tBjRVoM+om9DgLeb7W5t8Pr2
+/ufT2Xhy6k9RYa7/V6gF/KeN2bj8qhtaa+YaYKQYCRQgY7F4N7K0GQLnxT9NzLbbWoR0Gz2b3mVVxLCY4gw=
++iCTzQCXFFyqF+a4NMW+i01u+C3H/4ieQrMZsucPBuTYS88VZvf2+gNHz1agcD4wEmTUmdtDzdMExG8e1jCPPvxE20k=
+fcwnJtJKR8BLY/5Zfg5a5LYfEvmGDytEtTJKtARkRTaC8lWMQlR5AJPq+ThK
+HsIdebkxDhtV8gELslD8JTEnh8/6M/t+Fq+HAGSmdTaXDYNQai9vRGmqltiEEgLuNldHv2KMY6ZigJyEkYza
+q7C8lrfCSlR+UFCdKZUbD4piiCcYAARGnYTPz21O
+nmvBoUcJG5JskVudeDKuSSUG2d2WM6lfrzYavnJ4
+EWizJ0URf967AwIESZjzPIhi+7v8sY5EDw37fEW6R6jQFUhC6ZSX1qP/8ivhUULsOAYWJVunESQUVF8eHAM=
+6R9GvMluagklThBnlUEp6y2ePKa8Y/M9R5D3YGaP+dtbwZMuKo8QqxS9qrQHgq+fjhGIghaxznrYNMitnW8GPw==
+Ay7VZvTusn87SrhlEBwlSll1hI8ZA6c7Rhxkr4bT
+9gsfrKsG/aUPRTcFZdN2KyDEMXF7WHvY+7w5oYHc57drd/rUhgKdeYFecMUtE+EjQIXC0ewlTKktIjZqmopR
+KS9dT/F81qGQ/gTTg8UXslP3yrKKRjdOnL+BhXh+pwN2y/B0LeVbS2CxSsLNRpNGv08HWYaD8maNR1XpQMInZsIHXfw=
+IBeiZOMjjNkjxdp0LvX6dYR+Si5i1wGgQOigUorp2tI1qk3M22fE2lPDV8bH
+JPHry16Kcl9YKqdNvPS1qeAAJcBC2LwTCcoaWVZW5hk3iU+hjmDbq38qGDE541wUsg439Z/SRhYACytcUoIz
+gcTDq2PRoKQayrVXYRlFGFb3KCo3XLF1pS+pwuQ1
+oZuHAJY9y1oou4jshJMLB4j+1ylYW6RsgxnbPJiS
+r/2LpsjTphWa3i2AbOOdBYCF9jhMFU613bdmckip8KRTJjoakfLLbkgObKmzwr8garrt2F9Emzzi6V8vyfk=
+8eksLhYsuWqbDGE0H0ZMDVh+6txWBl10cqEh30yIqDHEEs1+ZuZmcKiGvtKHmhuMck3yZUSFuMva5IFf2LCLUA==
+6UwhxR083vRpw6KcE1w9/g52R8r71BnV+H9IkWPF
+M/1YNpuy4iM5oo7Fp62VLW4M44Wgis1MfK4/ZIpP+C0+QxHI5BBbycSj04kbPa423+YtODihM9aHqEzlAFOm
+n0GKMCdISfVlTd+nrAcXdJ6MA/Ri8etiYiIRfd9GoGiCbnDzx+GRZwRKQV0VaZA/P5nqog7sRP66O8WKWmEvGiYbotiCt+5r
+AYYvx070oLDU1dwl9YZNSCrEgpBUsGn3KkLIIijDW6TjlBTa6U1/IfYeCCf61A==
+MWfyPFK3n5ctYF57QCnuIxjoJiOFNEnBAPfzMYaCA9DJ3WO9kwYiVc6NvcxfcNUMN+8zwMZds464KT+1cDlqWg==
+z2e7zSpNH4o89dzfzsbK3EiYuhi2p+SXeaMHY6sb
+RCq/uxyRSDULkOTMzWaudgswnLpgMP1yg6fs4ojz
+vwQ3cdqN7O7vZin+p/QdV3WyfMeJSBmbqWYDAVC+r4aF6HKA2hr6T87YrUw/AerkyuwyFNsLK0LgUMnlJfka
+kU6VdCwHqBaD7cnf/fITvPxdv2r563vP8iQw7aS2+3mwJkAnIDrmmhRTNOAGb8Ggjq3Kz13J2Png1HIZla1lXY0=
+9V/4z7jwEUZwnKrkZT/9wA1vjNn27oI3DuCWtDoA
+aMVvNM1nr3wex88cVh5ayxgkMW+bflkr5+vfCQG9s/AUl0sovNRb6n5DC9gpzkSF0Y3zM5bWrLfaONBqLgOX
+7YLaYSQID12QYafwJGnHSc2DtghdMvBtmIdGlaC0n2ge3I+3AA3NvkuopfHzIUuG3dKyhM44ZGr2kn9P5TM7AbAmMr6uV1PWo6jstv57
+eiQictxnk3SQ9uvA592uV0ffYYYesz6TlGHCOvxj
+U00NK+EJdVQRAicfy1O3ecjRVastM8t9SDlLi1g1
+jVbuBQk//WM01G4grjXwdXbkAM6+srvZoVN86f/m4v1W7RSFeF0/mM9uyNh31bykf/ElC/9y9HWE1Xm+c2K5
+ZVQLFB/8y1M9Pi4UV3AkA7oO5HpUaEimlxC5tOd8o2QqWgiWLRi6h7ST6Erj9WxvebFSV1s8oA==
+jfQr1iDslKY7uYPtqI+nJOllI9V27tnSqMSVH/JA
+La34+2lGtXPtDhQVR5p2NWHwdNZzBJN+0dyjkQq1
+scxd5helZKe41DNFis6uq+0JXdx4jzJc3JL0zMMO
+um/JjMuZZK/GPlpWcuPupXwXUBQAnUf676EeZKBuOo1UhPQ23XHY+f16zye/n1A48o0MOyh8BadYFccrZc2ZHRDo
+fUHNSZc4t0IwcJWywt96oVpseeidZscoZBzKlmco
+udT7HFmzTcWQ1XYRD8XpjqCLi2VjHru7TftMXTvG
+iKeD7tO5ahS8AwUsgg+mqA3M0DL8XaOe5ZtJ4A8V
+6hy5p5ceUvNJWeKnc6Sd54kj7uZ1LvYaopQkEYb+8rUO7P5FyYc6AuXK1+V7dUYU91tpsIuFupHYoWyUPlm1TAxY7jtOKYq64w==
+XOyJh8U2/uIP/fFIqIGKeYu8IyMSP9cjAiCRdEvt
+bScWQbsVH8Ljro1CnrS8kaiqQBmbBDFuHhlZt58/
+gBEuBBkJWxLy6nH/kp0O7W9bOIadFXVvJqfSAIT4
+LIitsf0FqWMQgHX8hn0z/i/gOlyHpNOYpNmQkuw+
+4hvf04DiwCKaY63kjPW5L7g+HInu6R7mT5MRuNF/
++wMkdxmlXvn8xx7NUuxotZHd0i7T1w8OHiFFoh7G
+EXu4ypQVMsKnX797WEjCMQz4hvAtceuQl7zDMDAW
+itn87TYhFLTMByNrj2jrydkJyLHuSh/f2+DN5l/i
+XDMgNrqxq7A6g1icYurrqIJR/ZkYo0SJeUzCBorP
+0ozqgJ3ODXWbcvy5kVgBp3uGhX4p3uY9CjPM7+YC
+yCN9BA7823eBzXSaYfr9tkRhbrGi+o03wwXodx9H
+qgtZqQvOZ1aXeb6Yf3/vr0du9433ldvQoTr0MW3r
+ggFBrQUrxbqfkCSQpUkEjl2oDg5vyHD3YyacdcJt
+Y1/swEHjo3H9WIMMr7IiZwUKZ7ywHJUXF3Y2ylgr
+ZXnJ3Zbmu21fkG1ogC5EBqN2h+7SXAUfer2zJN6z
+ifMkUovUWW2TF57p+3yZOrfXOaZP+MG8jjXKI5Fz
+xMoU/3mS3vrnNqtL17dkGbdEVX8uMJr91qbaovWV70Se
+2/X3LcOrqJWLDBWGK5dxzOzy86ILw8U/pFC2nirWRjit
+yRofs4fE/T7Y30cPilQHZrWt2KjM/eb345U1lUgTZw8kRA==
+QdndWr2QNCuCk5r1+iHr6GsBzpAt5gTV3CLBczuH5WE6
+r6WXcfeSk7uJP6cN6JQi6rhDuSxyKwXQPvkizU/7
+SdiyGPQvikpB6M2vszeNyxmCb8PExT/Qh9Vi8YwD
+rMmybiy+iAN+A52UE7sY2wOyEtGRqx1fqIm4hDMs
+sQOnniBr02Y77SpRiF5RQwI1D8uHiqqq+q4aVtfhl++h
+af/Qa4yCILjK4VlrQuelDn3TwuHGjFSKmyAsn3FLZ1pnWQ==
+Q1K9LAC6vDF/NdlnHW7xvH+j4thY237lovzdKIjXShSt
+29LXgR5wIjosT+yuN0CKW6neJxn5jUUrheUBc2RMObS3
+Kx6Veu1kvoN7XBksAMllxCl9pyVvb7pbMhtN1rOD
+1nPKBYJUjL+l7LNtfORhbM5lhQFCH6FjGbjxVYo6
+BqPBzcA+osRrdqmj1h8WMZVEQOK7kIPgTp8vIR9X
+ILUWaNpR83qbYtmryoD2F/7z0onq6oU1P5s91KrhDWxW
+O5l9piQKoFraX8JSFusPjU4ERGLnDqeVY+e5yDt9qK0/
+gJar1iK9nEacwq1SjCrvYZYpw8oKq2lffIgkM7f5vRIfAg==
+a41rMi85Vq+ROWTLX8R9zkrn5f1ILX0tRJMzjrHQKS62
+W4rVyVTJRwZWBbGtnlGGvoDU6ssrp9f+KfYL5Qen
+Q0dw/B/5ZVEYPxNmtTRaSA8gIisE+BMo5wSkTEpr
+BeWC6lwtn4C0OU+2EHZMwitlSwIYpbOw+2j9UgFFAw==
+E3PzXcxndbBTxjxBfvC0i5kwMidugiCUcA5lWGxx
+xy81xlpxvS4aYcToT3OiH/jsjVYDh4Fd700PEzX1DSiEm37SJ9d03JRlPo7pB3l7MpmYd63qDIxqrIMoLJnmmfN61PRoIStCtM9l2mhAFNDXkWKq4LF6Ew3bpSw=
+l6DjYgtMYo2+9yKkoOWAHbBqgn1iCyQ8oK2JlF1v
+SZ4XHOstd6me2n1iKop8oMiw6k+9P/SJI9lDoEJL
+StFK0H6fWgv/nA0ZeCpDjMGGIIGRq6A/3UfKJXB5
+X265/czq2r3pxRQXJid7teZB/X/xk1TOapUG3pFa
+CHZI3os+YeMU6BzJrmSsDexdn+kY2gIlkKy6NIjD
+qNfIKhKCPIa/BET0pXNTL0+A4/Z1IGaHSy4A3m0H
+qBAQO67rO/xC1Lc+eIxQivHcH9yY2sSo//Tg/pIF
+uFFk8TXS+e0wg7wtdUll+Z33sUa4ofYmtnm7cshN
+b+nwOB9rEjUW1hfO2ms0xcdh0QnvPehq8YW5iHLQAc6OBz8hNY3/jr/rD4X4Xhg+9lHglUma6Q==
+Reby17TJGiT6/yDpwaxOffpb7xtWUqCilZ4+6LhE
+LINTew2/RwZQlcdxOIJ4egYc9jIF/re6Ma31nDNI
+57kWNm9I9S72Z2VfrApHyM9nMYZ+9WUpekaMVk18
+QDso3vTbqS6tvwrugHh52hQGB67gxVjaHNPXtbSr
++nqJeZjj++zpVmuivCfFRZPS2SW7q5xGJyiPgVHA
+Bdza1587AQWovC46a2BsYxuQ/eqAjG3Bl6CepZ1eYqXJ3OipV6wFgub7/R4w8E0=
+inwmQdi8YJlZaKJ6EaBJ5EoGFdKD4rcGmGMG9S7V
+joTIsw+SQGbhVT0kR1mVZugiLofJoGhZznLQucCz
+mkYLask9/jlJyAdRlJFupmaG8AgbyFlPlubLyQTNSuWKU6yu
+VPkgRtZBzIEHrOOAx113yX2X5Kj6CQGTmTJRfO6L
+qbTEvovwofrviZNVZuf5PX+ST+d6G1Oow5MgjfFf
+LkBNAiktH/FSsEcrOrPe7GeijX1UX9MZ5dn/k/86
+CAV5UHl0Pbzm+JHZYOh+yzXcTzCvypK0Ds4GyBhS
+93CN7yOmAApaP0yr/CIPsEoxmuAwmGMiD258PDwTtvbGjUbgCYDKNid67tpex2Pmg+g02c0=
+mBQ+3rMg1ktu9qJiznC7leZKe76Oy636Hd+8h3kR
+d7dXiz3wbVAOzZ41xsiErrHDWf4ub01V4pY3YzYm
+tvon+tmRCcAKzPKKiqSlEle/6sNWR83V9o+wHYui
+76hbRLKNjLlJRktfx/mbP31lpwSI/PZVALPH9zh6
+eiotjHKtz4I5ruwjiH3rPAVixco/woOOCqjEFyvx
+#Pragma encrypt(Off)
+
+'@ReadOnly mEdvuHpiGFJfUwoO

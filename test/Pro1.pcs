@@ -1,0 +1,18 @@
+'!TITLE "Generate Work Offset"
+#Include "..\Release\EasyWork.pcs"
+
+Sub Main
+	Dim Point1 As Position
+	Dim Point2 As Position
+	Dim Point3 As Position
+	Dim newWork As Position
+
+	TakeArm
+	
+	Point1 = (-160,-200,180,0,0,0,-1)			' New Work Center
+	Point2 = (-300,-160,240,0,0,0,-1)			' New Work X Axis
+	Point3 = (-230,-270,270,0,0,0,-1)			' New Work XY Quadrant
+			
+	newWork = EasyWork(Point1, Point2, Point3)	' Generate New Work Coordinate	
+	Work 1, newWork								' Set New Work as WORK 1
+End Sub

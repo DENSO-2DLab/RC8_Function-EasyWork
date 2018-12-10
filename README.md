@@ -1,4 +1,4 @@
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/DENSO-2DLab/RC8_Function-EasyWork/issues)
+[![contributions welcome](https://img.shields.io/badge/support%20level-community-lightgrey.svg)](https://github.com/DENSO-2DLab/RC8_Function-EasyWork/issues)
 
 # RC8 Function - EasyWork
 

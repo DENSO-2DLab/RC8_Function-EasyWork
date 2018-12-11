@@ -24,6 +24,10 @@ Please review documentation for more information on system requirements and how 
 
 ---
 
+Version 2.1 (12/10/2018) 
+- Internal caculattion changes. 
+- Processing speed reduced by 70%
+
 Version 2.0 (5/27/2016)
 - Changed it from a Sub routine to a Function. 
 - Function Name: EasyWork

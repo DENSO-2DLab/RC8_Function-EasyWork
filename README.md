@@ -5,6 +5,8 @@
 
 The EasyWork Function generates a work coordinate system based on three points.
 
+- [Release Page](https://github.com/DENSO-2DLab/RC8_Function-EasyWork/releases)
+
 ### Contents
 
 This non-official function is used to emulate the EasyTeach setting on the RC8 teach pendant for creating a work offset out of 3-points.

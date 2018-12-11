@@ -1,10 +1,9 @@
-[![contributions welcome](https://img.shields.io/badge/support%20level-community-lightgrey.svg)](https://github.com/DENSO-2DLab/RC8_Function-EasyWork/issues)
+![](https://img.shields.io/cocoapods/l/AFNetworking.svg)
+![](https://img.shields.io/badge/support%20level-vendor-green.svg)
 
-# RC8 Function - EasyWork
+# RC8\RC8A Function - EasyWork
 
 The EasyWork Function generates a work coordinate system based on three points.
-
-- [Release Page](https://github.com/DENSO-2DLab/RC8_Function-EasyWork/releases)
 
 ### Contents
 

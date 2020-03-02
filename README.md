@@ -27,6 +27,9 @@ Please review documentation for more information on system requirements and how 
 
 ---
 
+Version 2.1.1 (03/02/2020)
+- Tested on COBOTTA (minor modifications)
+
 Version 2.1 (12/10/2018) 
 - Internal caculattion changes. 
 - Processing speed reduced by 70%
